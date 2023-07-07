@@ -25,6 +25,7 @@ body{
  font-size: 18px;
  font-weight: 400;
  text-align: center;
+ margin-top: 0;
 }
 /* *nav rlaade styels */
 nav{
@@ -75,12 +76,15 @@ header{
     margin-bottom: 0;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 50px;
     font-weight: 700px;
     margin-top: 0;
 }
 /* *main section styal */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styal */
 
 .about{
@@ -88,4 +92,16 @@ header{
     border-radius: 10px;
     padding: 130px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title{
+    text-align: center;
+    color: #757575;
+}
+.info-descriptiom{
+    color: #474747;
+    
 }
