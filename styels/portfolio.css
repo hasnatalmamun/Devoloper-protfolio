@@ -188,6 +188,23 @@ main section {
 }
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-link{
+    margin-right: 25px;
+}
+.contuct input[type="Text"], .contuct input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    background: white;
+    border-radius: 5pz;
+    border: 0;
+    width: 100%;
 }
